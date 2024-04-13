@@ -1,0 +1,3 @@
+exports.generateSingleAPI = async () => {
+
+}

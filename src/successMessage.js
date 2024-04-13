@@ -1,0 +1,1 @@
+exports.success = (name)=>(console.log(`API structure for ${name} created successfully.`))
