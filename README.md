@@ -16,7 +16,7 @@ Hi, I am Muhimenul Tareque, who developed the entire system inspired by RoR scaf
 
 - [@Github](https://github.com/mmTareque01)
 - [@LinkedIn](https://linkedin.com/in/mmtareque)
-- [@whatsapp](https://wh.com)
+- [@whatsapp](https://wa.me/01793899433)
 - [@website](https://mmtareque.com)
 
 
@@ -61,5 +61,5 @@ The application has some limitations, as you are going to use this, you should k
 ## Next Version
 The upcoming Version will solve the current limitations.
 Like:
-- Developer wll be able to create a single api's;
+- Developer will be able to create a single api's;
 - Developer will be able to generate custom structure;
