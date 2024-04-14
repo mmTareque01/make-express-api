@@ -3,7 +3,7 @@ const handler = [{
     service: (name) => (`exports.${name} = (data) => {
         // ${name} logic here...
 
-        return 1
+        return {message: "Created!"}
     }`),
     controller: (importFunction, newFunction, path) => (`const { ${importFunction} } = require('../../${path}');
 
@@ -25,7 +25,7 @@ router.post('/create', ${importFunction});`)
     service: (name) => (`exports.${name} = (clue, pageSize, pageIndex) => {
         // ${name} logic here...
 
-        return 1
+        return [{message: "Found"}]
     }`),
     controller: (importFunction, newFunction, path) => (`const { ${importFunction} } = require('../../${path}');
 
@@ -51,7 +51,7 @@ router.get('/list', ${importFunction});`)
     service: (name) => (`exports.${name} = (id) => {
         // ${name} logic here...
 
-        return 1
+        return {message: "Found!"}
     }`),
     controller: (importFunction, newFunction, path) => (`const { ${importFunction} } = require('../../${path}');
 
@@ -77,7 +77,7 @@ router.get('/info/:id', ${importFunction});`)
     service: (name) => (`exports.${name} = (data, clue) => {
         // ${name} logic here...
 
-        return 1
+        return {message: "Updated!"}
     }`),
     controller: (importFunction, newFunction, path) => (`const { ${importFunction} } = require('../../${path}');
 
@@ -99,7 +99,7 @@ router.put('/:id', ${importFunction});`)
     service: (name) => (`exports.${name} = (id) => {
         // ${name} logic here...
 
-        return 1
+        return {message: "Deleted!"}
     }`),
     controller: (importFunction, newFunction, path) => (`const { ${importFunction} } = require('../../${path}');
 

@@ -4,6 +4,7 @@ const { capitalize } = require('../toCapitalize');
 const { handler } = require('../apiHandler');
 const { success } = require('../successMessage');
 const { generateService } = require('../generateService');
+const { generateController } = require('../generateController');
 
 exports.generateModule = async (folders, basePath, version, module) => {
 
@@ -23,6 +24,7 @@ exports.generateModule = async (folders, basePath, version, module) => {
 
 
         //creating controller layer
+        await generateController(basePath, version, module, folders[1], file, folders[2])
 
         routeContent += file.route(module + file.name, `${folders[1]}/${module}/${module + file.name}.${folders[2]}.js`)
 

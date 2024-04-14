@@ -1,5 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
+const { capitalize } = require('./toCapitalize');
 
 exports.generateService = async (basePath, version, module, service, file) => {
     const servicePath = path.join(basePath, version, service, module, `${module + file.name}.${service}.js`);

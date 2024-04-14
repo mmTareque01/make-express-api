@@ -1,6 +1,6 @@
 {
   "name": "make-express-api",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "'make-express-api' is a cli tool which help back-end developers to generate express api faster. By writing a single line of code, developer will be able to create CRUD api for a specific module. This tool not only will generate the API, it will take care of proper folder structure as well as versioning system.  By default the rest api is designed by following 'Rechardson standard level'. Right now user won't be able to change it whether they are rewriting the api response.",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,20 @@
     "url": "git+https://github.com/mmTareque01/make-express-api.git"
   },
   "keywords": [
-    "\"scaffold express api",
-    "scaffold api\"",
-    "\"scaffold express",
-    "express api generator\"",
-    "\"make express api",
+    "scaffold express api",
+    "scaffold api",
+    "scaffold express",
+    "express api generator",
+    "make express api",
     "express scaffold",
-    "api scaffold\""
+    "api scaffold"
   ],
   "bugs": {
     "url": "https://github.com/mmTareque01/make-express-api/issues"
   },
   "homepage": "https://github.com/mmTareque01/make-express-api#readme",
   "author": "MM Tareque",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^12.0.0",
     "fs-extra": "^11.2.0"
